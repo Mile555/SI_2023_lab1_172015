@@ -5,4 +5,10 @@
 5.git add SILab1.java
 6.git commit -m "Add java class"
 7.git push -u origin master
-8.
+8.git add.
+9.git push -u origin master
+10.git branch bug1
+11.git branch bug2
+12.git branch bug3
+13.git checkout bug1
+14.
