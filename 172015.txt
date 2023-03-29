@@ -1,0 +1,18 @@
+1.git init
+2.git remote add origin https://github.com/Mile555/SI_2023_lab1_172015.git
+3.git add README.md
+4.git commit -m "Initial commit"
+5.git add SILab1.java
+6.git commit -m "Add java class"
+7.git push -u origin master
+8.git add.
+9.git push -u origin master
+10.git branch bug1
+11.git branch bug2
+12.git branch bug3
+13.git checkout bug1
+14.git add SILab1.java
+15.git commit -m "Fix wrong loop for reading"
+16.git add 172015.txt
+17.git commit -m "Update vo komandi fajlot"
+18.git checkout bug2
