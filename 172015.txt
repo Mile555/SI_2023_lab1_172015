@@ -1,0 +1,8 @@
+1.git init
+2.git remote add origin https://github.com/Mile555/SI_2023_lab1_172015.git
+3.git add README.md
+4.git commit -m "Initial commit"
+5.git add SILab1.java
+6.git commit -m "Add java class"
+7.git push -u origin master
+8.
