@@ -1,29 +1,51 @@
-1.git init
+1.git init                       -Inicijaliziranje na git
 2.git remote add origin https://github.com/Mile555/SI_2023_lab1_172015.git
-3.git add README.md
-4.git commit -m "Initial commit"
-5.git add SILab1.java
-6.git commit -m "Add java class"
-7.git push -u origin master
-8.git add.
-9.git push -u origin master
+3.git add README.md              - dodavame readme fajl
+4.git commit -m "Initial commit" -inicijalen komit
+5.git add SILab1.java 		- dodavanje na fajlot na stage
+6.git commit -m "Add java class" - commit za dodavanje na java klasata
+7.git push -u origin master 	- push na dalecniot rep
+8.git add. 			- add na fajl
+9.git push -u origin master 	- sync so dalecno repo
 10.git branch bug1
-11.git branch bug2
+11.git branch bug2 		-kreiranje na 3 brancha za bugs
 12.git branch bug3
-13.git checkout bug1
-14.git add SILab1.java
-15.git commit -m "Fix wrong loop for reading"
-16.git add 172015.txt
-17.git commit -m "Update vo komandi fajlot"
-18.git checkout bug2
-<<<<<<< HEAD
+13.git checkout bug1		-prefrlanje na bug1 branch
+14.git add SILab1.java		-add silab1
+15.git commit -m "Fix wrong loop for reading" - commit na fix
+16.git add 172015.txt		-update na komandite
+17.git commit -m "Update vo komandi fajlot" 
+18.git checkout bug2 		-prefrlanje na bug2
 19.git add.
 20.git commit -m "Fix wrong condition in filterOddNumbers"
-21.git checkout bug3
+21.git checkout bug3 		-prefrlanje na bug3
 21.git add
 22.git commit -m "Fix method sumEvenNumbers"
-23.git push -u origin --all
+23.git push -u origin --all 	-sinhronizacija so dalecnoto repo
 24.git checkout master
-25.git merge
-=======
->>>>>>> bug2
+25.git merge bug1		-spojuvanje na bug1 so master
+26.git pull			
+27.git push
+28.git merge bug2		-spojuvanje na bug2 so master
+29.git commit -m "Update kk"
+30.git pull
+31.git push
+32.git checkout bug3		-prefrlanje na bug3
+33.git rebase master		-rebase so master
+34.git checkout master
+35.git add .
+36.git commit -m "Promena na metodot sumEvenNumbers na master granka za da moze da se napravi rebase"
+37.git rebase master		-rebase so master posle manuelna promena na metodot vo klasata na master branch
+38.git rebase --skip		
+39.git checkout master
+40.git merge bug3		-spoujvanje na bug3 so master
+41.git push
+42.git add .			-dodavanje na logs fajlot i index.txt
+43.git commit -m "Final commit"
+44.git push
+45.git checkout bug1
+46.git push
+47.git checkout bug2
+48.git push
+49.git checkout bug3
+50.git push
