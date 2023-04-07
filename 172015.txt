@@ -16,6 +16,7 @@
 16.git add 172015.txt
 17.git commit -m "Update vo komandi fajlot"
 18.git checkout bug2
+<<<<<<< HEAD
 19.git add.
 20.git commit -m "Fix wrong condition in filterOddNumbers"
 21.git checkout bug3
@@ -24,3 +25,5 @@
 23.git push -u origin --all
 24.git checkout master
 25.git merge
+=======
+>>>>>>> bug2
