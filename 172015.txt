@@ -22,3 +22,5 @@
 21.git add
 22.git commit -m "Fix method sumEvenNumbers"
 23.git push -u origin --all
+24.git checkout master
+25.git merge
